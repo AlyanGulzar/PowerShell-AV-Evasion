@@ -22,31 +22,35 @@ This repository provides various techniques to evade antivirus detection and obf
 ```
 
 ## Obfuscation Techniques
-### 1. Simple Obfuscation (simple_obfuscation.ps1)
+### 1. Simple Obfuscation ([simple_obfuscation.ps1](./ObfuscationTechniques/simple_obfuscation.ps1))
 Basic obfuscation techniques to make the script harder to analyze. Uses variable renaming and string concatenation.
 
-### 2. Quote Alternation (quote_alternation.ps1)
+### 2. Quote Alternation ([quote_alternation.ps1](./ObfuscationTechniques/quote_alternation.ps1))
 Utilizes alternating single and double quotes to break static detection rules.
 
-### 3. Advanced Obfuscation (advanced_obfuscation.ps1)
+### 3. Advanced Obfuscation ([advanced_obfuscation.ps1](./ObfuscationTechniques/advanced_obfuscation.ps1))
 Combines multiple obfuscation techniques to increase complexity and evade detection.
 
+---
+
 ## Bypass AV Techniques
-### 1. String Encoding (string_encoding.ps1)
+### 1. String Encoding ([string_encoding.ps1](./BypassAV/string_encoding.ps1))
 Encodes script strings using Base64 or other encoding schemes.
 
-### 2. Encoding Combination (encoding_combination.ps1)
+### 2. Encoding Combination ([encoding_combination.ps1](./BypassAV/encoding_combination.ps1))
 Uses multiple encoding methods together to create a multi-layered obfuscation.
 
-### 3. Script Encryption (script_encryption.ps1)
+### 3. Script Encryption ([script_encryption.ps1](./BypassAV/script_encryption.ps1))
 Encrypts the entire script using AES or other encryption methods and decrypts at runtime.
 
+---
+
 ## Examples
-### 1. Reverse Shell (reverse_shell.ps1)
+### 1. Reverse Shell ([reverse_shell.ps1](./Examples/reverse_shell.ps1))
 Creates a reverse shell that connects back to the attacker’s system, using obfuscated commands to avoid detection.
 
-### 2. Download and Execute (download_execute.ps1)
-Downloads a payload from a remote server and executes it using obfuscated PowerShell commands.
+### 2. Download and Execute ([download_execute.ps1](./Examples/download_execute.ps1))
+Downloads a malicious script and executes it directly in memory, bypassing common AV solutions.
 
 ## Usage
 1. Clone the repository:
